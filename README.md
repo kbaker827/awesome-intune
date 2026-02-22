@@ -287,3 +287,54 @@ To the extent possible under law, the contributors have waived all copyright and
 | Autopilot enrollment stuck | Intune-Company-Portal-Launch (2⭐) |
 | App deployment failing | AppWorkloadJsonDecoder |
 
+
+---
+
+## 🎫 Help Desk & ITSM Integration
+
+*Tools for integrating Intune with help desk and service management systems.*
+
+### Self-Service Tools
+
+- [Intune-Self-Service-Chat-Bot](https://github.com/stoiczubi/Intune-Self-Service-Chat-Bot) - Self-service chat bot that lets end users get BitLocker recovery keys, wipe/reset iOS and Android devices, passcode reset, etc. **Reduces help desk tickets!**
+
+### Help Desk Automation
+
+- [intune-helpdesk-toolkit](https://github.com/Joaosilva27/intune-helpdesk-toolkit) - PowerShell scripts for Microsoft 365 / Intune helpdesk and endpoint support. Includes printer resets, user profile fixes, device troubleshooting, and basic M365/Windows support automation.
+- [endpoint-ops](https://github.com/wbdg7h2p2p6g-design/endpoint-ops) - PowerShell and Intune automation scripts for endpoint management and helpdesk operations. Includes tools for system cleanup, Intune configuration, and process optimization.
+
+### Reporting & Dashboards
+
+- [intune-powerbi-dashboard](https://github.com/a-ariff/intune-powerbi-dashboard) ⭐ 4 - Comprehensive Power BI solution for monitoring Microsoft Intune device compliance, software inventory, and endpoint security. Can be embedded in help desk dashboards.
+
+### ITSM Platform Integration
+
+- [Windows-2022-SE-Help-Desk-Project](https://github.com/ikalasy/Windows-2022-SE-Help-Desk-Project) - Project integrating Active Directory, Intune, and Jira Service Management for help desk operations.
+
+### Automation Collections
+
+- [intune-automation-scripts](https://github.com/firdaussulaiman/intune-automation-scripts) ⭐ 1 - Cloud device management automation scripts.
+- [Intune-PS-Scripts](https://github.com/stoiczubi/Intune-PS-Scripts) - Collection of useful Intune automation scripts.
+- [Intune-MSGraph](https://github.com/enricdm/Intune-MSGraph) - MSGraph Intune automation scripts repository.
+- [Intune-AutomationScripts](https://github.com/LeblogModernWorkplace/Intune-AutomationScripts) - Intune automation scripts.
+
+### 🔧 Lansweeper Integration
+
+**Note:** There are no open-source Lansweeper-Intune integrations available. Lansweeper offers a native Intune connector as a paid feature.
+
+**Alternative:** See our companion repository `intune-lansweeper-sync` for a custom PowerShell sync solution using Microsoft Graph API and Lansweeper API.
+
+---
+
+## 🛠️ Help Desk Quick Reference
+
+| Task | Tool |
+|------|------|
+| BitLocker key recovery | Intune-Self-Service-Chat-Bot |
+| Device wipe/reset | Intune-Self-Service-Chat-Bot |
+| Printer troubleshooting | intune-helpdesk-toolkit |
+| User profile fixes | intune-helpdesk-toolkit |
+| Compliance reporting | intune-powerbi-dashboard |
+| System cleanup | endpoint-ops |
+| General device actions | CompanyPortalSystemTrayTool |
+
