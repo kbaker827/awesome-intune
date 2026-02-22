@@ -239,3 +239,51 @@ To the extent possible under law, the contributors have waived all copyright and
 | Need iOS SDK integration | ms-intune-app-sdk-ios |
 | iOS auto-enrollment | IntunesIOS-autoEnroll |
 
+
+---
+
+## 🔧 Troubleshooting & Diagnostics
+
+*Tools for diagnosing and fixing Intune issues.*
+
+### ⭐⭐⭐ Must-Have Diagnostic Tools
+
+- [Get-IntuneManagementExtensionDiagnostics](https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics) ⭐ 289 - **THE** gold standard tool for analyzing Intune IME logs and showing events in Timeline view. Essential when apps won't install or policies aren't applying.
+
+### Log Collection & Analysis
+
+- [Intune_Troubleshooting](https://github.com/damienvanrobaeys/Intune_Troubleshooting) ⭐ 4 - Collect logs remotely on devices with Intune and upload them for analysis.
+- [Intune-IME-Helper](https://github.com/markstan/Intune-IME-Helper) ⭐ 2 - Convert Intune Management Extension (IME) logs to plain text (already listed in PC Onboarding section).
+
+### Detection Scripts
+
+- [Intune-Detection-Scripts](https://github.com/Nerdy-Technician/Intune-Detection-Scripts) ⭐ 5 - Win32 detection scripts for non-MSI based apps for Windows.
+- [IntuneDetectionScripts](https://github.com/MJWyattCyber/IntuneDetectionScripts) ⭐ 1 - Various scripts to support Intune app deployments.
+- [GenericIntuneDetectionScript](https://github.com/DeanTheMeanMachine/GenericIntuneDetectionScript) - One script to detect them all - universal detection approach.
+
+### Health Checks
+
+- [IntuneLens](https://github.com/lex-n/IntuneLens) ⭐ 1 - PowerShell module for running Intune health checks with scoring.
+
+### Support Toolkits
+
+- [Intune-Support-Toolkit](https://github.com/tarevaibhav/Intune-Support-Toolkit) - Curated collection of scripts, guides, and automation for supporting Intune environments including certificate lifecycle management, policy deployment, and troubleshooting.
+- [intune-support-tools](https://github.com/team-vrock/intune-support-tools) - Support utilities for Intune administrators.
+
+---
+
+## 🚑 Troubleshooting Quick Reference (Expanded)
+
+| Issue | Tool |
+|-------|------|
+| IME not working / apps won't install | Get-IntuneManagementExtensionDiagnostics (289⭐) |
+| Need to understand IME log activity | Intune-IME-Helper |
+| Collect logs remotely | Intune_Troubleshooting (4⭐) |
+| App detection script needed | Intune-Detection-Scripts (5⭐) |
+| Health check & scoring | IntuneLens (1⭐) |
+| General support resources | Intune-Support-Toolkit |
+| Company Portal won't open | CompanyPortalSystemTrayTool (24⭐) |
+| Can't verify enrollment status | IntuneDeviceMDMStatus |
+| Autopilot enrollment stuck | Intune-Company-Portal-Launch (2⭐) |
+| App deployment failing | AppWorkloadJsonDecoder |
+
