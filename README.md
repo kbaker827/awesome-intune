@@ -50,14 +50,30 @@
 
 *Windows Autopilot deployment and management tools.*
 
-### Deployment Tools
+### Device Import & Registration
 
+- [WindowsAutopilotInfo](https://github.com/andrew-s-taylor/WindowsAutopilotInfo) ⭐ 97 - Gather hardware hashes and device info for Autopilot registration. Essential for IT admins doing bulk imports.
+- [WinAutopilotImport](https://github.com/tugich/WinAutopilotImport) ⭐ 45 - Simple GUI tool for registering Windows devices with Autopilot. User-friendly alternative to PowerShell scripts.
+- [Autopilot-Manager](https://github.com/okieselbach/Autopilot-Manager) ⭐ 64 - Azure app service + client application architecture for streamlined Autopilot imports. Enterprise-grade with web interface.
 - [AutopilotV2](https://github.com/rafallz10100/AutopilotV2) ⭐ 16 - Device Serial Number Import Tool for Intune Autopilot V2.
+- [autopilot-enrollment-existing-devices](https://github.com/jknyght9/autopilot-enrollment-existing-devices) ⭐ 5 - Web API for receiving Autopilot enrollment info from existing devices. Useful for retroactive enrollment scenarios.
 - [Intune-Autopilot-Tool](https://github.com/iamwillcode/Intune-Autopilot-Tool) ⭐ 3 - PowerShell Script with WPF GUI to onboard devices through Microsoft Graph API.
 - [TurboPilot](https://github.com/jakeraff/TurboPilot) ⭐ 2 - PowerShell script to automate enrollment of Windows devices into Intune Autopilot.
 
-### Hybrid Join
+### Device Management & Cleanup
 
+- [DeviceOffboardingManager](https://github.com/ugurkocde/DeviceOffboardingManager) ⭐ 226 - Comprehensive offboarding tool for Intune, Autopilot, and Entra ID. Bulk operations, analytics, device lifecycle management.
+- [Autopilot-Cleanup](https://github.com/markorr321/Autopilot-Cleanup) ⭐ 10 - Interactive PowerShell tool for bulk cleanup across Autopilot, Intune, and Entra ID. Features WhatIf mode for safe testing.
+
+### Group Tag Management
+
+- [AutopilotGroupTagger](https://github.com/ennnbeee/AutopilotGroupTagger) ⭐ 29 - Bulk update and manage Windows Autopilot device group tags via PowerShell. Essential for retrospective Autopilot organization.
+- [Bulk-update-Windows-Autopilot-Group-Tags-using-PowerShell-and-CSV](https://github.com/ChanderManiPandey2022/Bulk-update-Windows-Autopilot-Group-Tags-using-PowerShell-and-CSV) - CSV-driven bulk group tag updates using PowerShell.
+
+### Hybrid Join & Advanced
+
+- [Windows-Autopilot-Hybrid-Join-Scripts](https://github.com/markdepalma/Windows-Autopilot-Hybrid-Join-Scripts) - Scripts for Autopilot hybrid Azure AD join scenarios.
+- [Extract_AutopilotConfigurationFile.json](https://github.com/ChanderManiPandey2022/Extract_AutopilotConfigurationFile.json) - Extract AutopilotConfigurationFile.json for offline device registration.
 - [PSRename](https://github.com/mgajda83/PSRename) ⭐ 3 - Scripts to rename workstations prepared by Intune Autopilot in Hybrid Azure AD Join.
 
 ---
