@@ -322,7 +322,7 @@ To the extent possible under law, the contributors have waived all copyright and
 
 **Note:** There are no open-source Lansweeper-Intune integrations available. Lansweeper offers a native Intune connector as a paid feature.
 
-**Alternative:** See our companion repository `intune-lansweeper-sync` for a custom PowerShell sync solution using Microsoft Graph API and Lansweeper API.
+**Alternative:** See companion repository: [intune-lansweeper-sync](https://github.com/kbaker827/intune-lansweeper-sync) - PowerShell script for syncing Intune device data to Lansweeper for a custom PowerShell sync solution using Microsoft Graph API and Lansweeper API.
 
 ---
 
