@@ -174,3 +174,68 @@ To add a new resource:
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+
+---
+
+## 📱 iOS Management
+
+*Tools for managing iOS devices with Microsoft Intune.*
+
+### Official SDKs
+
+- [ms-intune-app-sdk-ios](https://github.com/microsoftconnect/ms-intune-app-sdk-ios) ⭐ 111 - **(Official Microsoft)** Intune App SDK for iOS enables data protection and mobile app management features.
+- [Chatr-Sample-Intune-iOS-App](https://github.com/microsoftconnect/Chatr-Sample-Intune-iOS-App) ⭐ 16 - Swift iOS app to test Microsoft Intune APP SDK capabilities.
+
+### Enrollment & Configuration
+
+- [IntunesIOS-autoEnroll](https://github.com/ChismanRaheem/IntunesIOS-autoEnroll) ⭐ 2 - Intune Xcode project using auto-enroll on launch.
+- [Intune-iOS-Device-Management](https://github.com/Wordups/Intune-iOS-Device-Management) - Demonstrates iOS device management including compliance policies, app deployment, and troubleshooting.
+- [intune-ios-sdk](https://github.com/MFB-Technologies-Inc/intune-ios-sdk) - Swift package of Intune SDK for iOS.
+
+### Migration
+
+- [WorkspaceONE-To-Intune-iOS](https://github.com/Noblesite/WorkspaceONE-To-Intune-iOS) - Migration tools from Workspace ONE to Intune for iOS.
+
+### App Wrapping
+
+- [Wagr-Sample-Intune-iOS-App](https://github.com/philgetzen/Wagr-Sample-Intune-iOS-App) - Test the capabilities of the Microsoft Intune App Wrapping Tool.
+
+---
+
+## 🔧 PC Onboarding & Enrollment Fix Scripts
+
+*Tools to troubleshoot and fix Windows device enrollment issues.*
+
+### Company Portal Tools
+
+- [CompanyPortalSystemTrayTool](https://github.com/JayRHa/CompanyPortalSystemTrayTool) ⭐ 24 - System tray tool extending the Intune Company Portal with quick-access device management actions.
+- [Intune-Company-Portal-Launch](https://github.com/Get-LocalUser/Intune-Company-Portal-Launch) ⭐ 2 - Launches the Company Portal upon initial login after Autopilot.
+
+### Enrollment Status & Diagnostics
+
+- [IntuneDeviceMDMStatus](https://github.com/bijudevops/IntuneDeviceMDMStatus) - Check Intune Device Enrollment Status.
+- [Intune_Device_Enrollment_Nouser](https://github.com/animetechie/Intune_Device_Enrollment_Nouser) ⭐ 1 - PowerShell script to enroll devices into Intune with no users (shared/kiosk devices).
+
+### Log Analysis & Troubleshooting
+
+- [Intune-IME-Helper](https://github.com/markstan/Intune-IME-Helper) ⭐ 2 - Tools to convert Intune Management Extension (IME) logs to plain text for troubleshooting.
+- [AppWorkloadJsonDecoder](https://github.com/thejimoneil/AppWorkloadJsonDecoder) - Extract and prettify JSON policy data from IME AppWorkload log files to analyze app deployment policies.
+
+### Enrollment Labs & Guides
+
+- [Microsoft-Intune-Device-Enrollment-Lab](https://github.com/Abdulquani/Microsoft-Intune-Device-Enrollment-Lab) - Documents the process of enrolling Windows VMs into Intune and resolving permissions, networking, and authentication issues.
+
+---
+
+## 🛠️ Troubleshooting Quick Reference
+
+| Issue | Tool |
+|-------|------|
+| Company Portal won't open | CompanyPortalSystemTrayTool |
+| IME logs unreadable | Intune-IME-Helper |
+| Can't verify enrollment status | IntuneDeviceMDMStatus |
+| Autopilot enrollment stuck | Intune-Company-Portal-Launch |
+| App deployment failing | AppWorkloadJsonDecoder |
+| Need iOS SDK integration | ms-intune-app-sdk-ios |
+| iOS auto-enrollment | IntunesIOS-autoEnroll |
+
